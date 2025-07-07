@@ -14,9 +14,10 @@ global.creator = process.env.CREATOR || "94702128378@s.whatsapp.net"
 global.botprefix = process.env.BOTPREFIX || "."
 global.restart = process.env.RESTART || true
 global.mongoDB = process.env.MONGODB_URI || "ᴘᴜᴛ ʏᴏᴜʀ ᴍᴏɴɢᴏᴅʙ ᴜʀɪ ʜᴇʀᴇ."
-global.botlogo = process.env.BOTLOGO || "https://raw.githubusercontent.com/KaviDeveloperSe/KAVI-X-BOT-DB/refs/heads/main/kavix02.jpeg"
+global.botlogo = process.env.BOTLOGO || "https://raw.githubusercontent.com/KaviDeveloperSe/KAVI-X-BOT-DB/refs/heads/main/kavix03.png"
 global.kavixcap = process.env.KAVIXCAP || "> ᴘᴏᴡᴇʀᴇᴅ ʙʏ 💠 ᴋᴀᴠɪ-x ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ."
 global.kavixcaption = process.env.KAVIXCAPTION || "✯ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴋᴀᴠɪ-x ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ✯"
+global.port = process.env.PORT || 3000
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
