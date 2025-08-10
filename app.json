@@ -1,0 +1,90 @@
+{
+    "name": "KAVI-X-V2",
+    "description": "KAVI-X BOT MD WhatsApp Bot Create By Cyber Kavi !",
+    "logo": "https://raw.githubusercontent.com/KaviDeveloperSe/KAVI-X-BOT-DB/refs/heads/main/kavix03.png",
+    "keywords": ["multi-device", "whatsapp-bot", "baileys", "kavixbot", "kavix", "kavibot", "kavideveloper", "kavideveloperse"],
+    "success_url": "/",
+    "env": {
+        "SESSIONID": {
+            "description": "session ID",
+            "required": true,
+            "value": "Put Your Session ID Here."
+        },
+        "MONGODB_URI": {
+            "description": "MongoDB URI",
+            "required": true,
+            "value": "Put Your MongoDB URI Here."
+        },
+        "BOTNAME": {
+            "description": "Name of your bot",
+            "required": false,
+            "value": "KAVI-X MD"
+        },
+        "OWNERNUMBER": {
+            "description": "Owner's WhatsApp number (without @s.whatsapp.net)",
+            "required": false,
+            "value": "94702128378"
+        },
+        "OWNERNAME": {
+            "description": "Owner's name",
+            "required": false,
+            "value": "Cyber Kavi"
+        },
+        "PACKNAME": {
+            "description": "Sticker pack name",
+            "required": false,
+            "value": "KAVI-X MD"
+        },
+        "AUTHOR": {
+            "description": "Author name for sticker metadata",
+            "required": false,
+            "value": "Cyber Kavi"
+        },
+        "CREATOR": {
+            "description": "Creator JID (include @s.whatsapp.net)",
+            "required": false,
+            "value": "94702128378@s.whatsapp.net"
+        },
+        "BOTPREFIX": {
+            "description": "Command prefix for the bot",
+            "required": false,
+            "value": "."
+        },
+        "RESTART": {
+            "description": "Enable bot restart on changes (true/false)",
+            "required": false,
+            "value": "true"
+        },
+        "WEBSITEX": {
+            "description": "Bot website or dashboard link",
+            "required": false,
+            "value": "https://kavi-x-bot-login.up.railway.app/"
+        },
+        "WAGC": {
+            "description": "WhatsApp group chat invite link",
+            "required": false,
+            "value": "https://chat.whatsapp.com/CG9f0paHJzwDImXiydfuht"
+        },
+        "BOTSCRIPT": {
+            "description": "GitHub repository or bot script link",
+            "required": false,
+            "value": "https://github.com/KaviDeveloperSe/KAVI-X-BOT"
+        },
+        "BOTLOGO": {
+            "description": "Bot logo image URL",
+            "required": false,
+            "value": "https://raw.githubusercontent.com/KaviDeveloperSe/KAVI-X-BOT-DB/refs/heads/main/kavix03.png"
+        },
+        "PORT": {
+            "description": "Port for the bot server",
+            "required": false,
+            "value": "3000"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+    ],
+  "stack": "heroku-24"
+}
