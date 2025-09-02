@@ -49,6 +49,7 @@
         "pdfkit": "^0.13.0",
         "pino": "^8.8.0",
         "playwright": "^1.54.2",
+        "playwright-firefox": "^1.55.0",
         "pm2": "^6.0.5",
         "process": "^0.11.10",
         "qrcode": "^1.5.4",
